@@ -9,7 +9,7 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-Used-teal)
 ![Joblib](https://img.shields.io/badge/Joblib-Used-purple)
 ![Pyngrok](https://img.shields.io/badge/Pyngrok-Used-black)
-![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-yellow)
 
 This project builds a predictive model to identify heart disease using various ML techniques, with a Streamlit interface and Ngrok deployment.
 
@@ -67,8 +67,9 @@ Add auth tokens
 ```bash
 ngrok config add-authtoken <YOUR_AUTHTOKEN>
 ```
--Run the app
--In a new terninal:
+Run the app
+
+In a new terninal:
 ```bash
 ngrok http 8501
 ```
