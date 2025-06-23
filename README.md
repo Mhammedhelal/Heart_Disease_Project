@@ -59,9 +59,9 @@ pip install -r requirements.txt
 ---
 ### Expose publicly using Ngrok
 
--Go to https://dashboard.ngrok.com and sign in or register
--Copy the auth tokens from https://dashboard.ngrok.com/get-started/setup
--Add auth tokens
+Go to https://dashboard.ngrok.com and sign in or register
+Copy the auth tokens from https://dashboard.ngrok.com/get-started/setup
+Add auth tokens
 ```bash
 ngrok config add-authtoken <YOUR_AUTHTOKEN>
 ```
@@ -82,11 +82,11 @@ The final model is a RandomForestClassifier with optimized hyperparameters, trai
 ---
 ### 🧠 Final Model Info
 
--🔎 Model: Random Forest (tuned)
+🔎 Model: Random Forest (tuned)
 
--⚙️ Wrapped in: Scikit-learn Pipeline (with scaling)
+⚙️ Wrapped in: Scikit-learn Pipeline (with scaling)
 
--📦 Exported as: models/final_model.pkl
+📦 Exported as: models/final_model.pkl
 ---
 
 
