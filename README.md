@@ -83,7 +83,9 @@ The final model is a RandomForestClassifier with optimized hyperparameters, trai
 ### 🧠 Final Model Info
 
 -🔎 Model: Random Forest (tuned)
+
 -⚙️ Wrapped in: Scikit-learn Pipeline (with scaling)
+
 -📦 Exported as: models/final_model.pkl
 ---
 
