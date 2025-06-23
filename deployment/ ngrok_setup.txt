@@ -7,8 +7,9 @@ Ngrok Setup Instructions:
    ngrok config add-authtoken YOUR_TOKEN_HERE
 
 4. To start the Streamlit app with Ngrok:
-   Run the script:
-
-   python run_ngrok.py
+   Run the app
+   
+   Then in a new terminal:
+   ngrok http 8501
 
 5. A public link will be generated (e.g. https://abc-123.ngrok-free.app) — share it with others!
