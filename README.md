@@ -60,7 +60,9 @@ pip install -r requirements.txt
 ### Expose publicly using Ngrok
 
 Go to https://dashboard.ngrok.com and sign in or register
+
 Copy the auth tokens from https://dashboard.ngrok.com/get-started/setup
+
 Add auth tokens
 ```bash
 ngrok config add-authtoken <YOUR_AUTHTOKEN>
