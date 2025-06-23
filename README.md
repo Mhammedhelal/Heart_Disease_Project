@@ -56,22 +56,22 @@ python run.py
 ```bash
 pip install -r requirements.txt
 ```
-
+---
 ### Expose publicly using Ngrok
 
 -Go to https://dashboard.ngrok.com and sign in or register
--copy the auth tokens from https://dashboard.ngrok.com/get-started/setup
-- Add auth tokens
+-Copy the auth tokens from https://dashboard.ngrok.com/get-started/setup
+-Add auth tokens
 ```bash
 ngrok config add-authtoken <YOUR_AUTHTOKEN>
 ```
---Run the app
---In a new terninal:
+-Run the app
+-In a new terninal:
 ```bash
 ngrok http 8501
 ```
 Copy the generated https://xxxxx.ngrok-free.app URL and open it in a browser.
-
+---
 
 ### 📊 Model Performance
 
@@ -79,12 +79,13 @@ You can view evaluation metrics (accuracy, precision, recall, F1-score, AUC) in:
 results/evaluation_metrics.txt
 The final model is a RandomForestClassifier with optimized hyperparameters, trained via a pipeline with StandardScaler.
 
-
+---
 ### 🧠 Final Model Info
 
 -🔎 Model: Random Forest (tuned)
 -⚙️ Wrapped in: Scikit-learn Pipeline (with scaling)
 -📦 Exported as: models/final_model.pkl
+---
 
 
 
